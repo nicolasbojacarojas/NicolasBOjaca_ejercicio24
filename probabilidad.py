@@ -26,5 +26,4 @@ for i in range(len(lam)):
 plt.plot(lam, y)
 plt.xlabel("lambda")
 plt.ylabel("pobabilidad")
-plt.show()
-
+plt.savefig("grafica")
